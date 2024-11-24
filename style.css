@@ -1,0 +1,825 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background-color: #eeeeee;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.topnov {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #596275;
+}
+
+.topnov_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 220px;
+
+  width: 2000px;
+  margin: auto;
+  height: 120px;
+  padding-top: 50px;
+}
+
+.topnov_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topnov_text {
+  width: 200px;
+
+  height: 30px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #ffffff;
+}
+
+.topnov_btn {
+  /* Rectangle 4 */
+
+  width: 240px;
+  height: 50px;
+
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+header {
+  margin: 100px auto;
+  margin-top: 210px;
+}
+
+.head_wrapper {
+  width: 1600x;
+
+  height: 90px;
+
+  margin-top: 50px;
+}
+
+.head_boxtitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item {
+  /* О компании */
+
+  width: 80px;
+  height: 15px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+span {
+  font-weight: 900;
+}
+
+.btn_box {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 18px 39px;
+  gap: 10px;
+
+  background: #124f48;
+  border-radius: 31.5px;
+}
+
+.head_btn {
+  background-color: inherit;
+  border: none;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+main {
+  width: 100%;
+  background-image: url("./img/intriImg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+}
+
+.main_title {
+  margin-left: 600px;
+
+  width: 782px;
+  height: 98px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+
+  color: antiquewhite;
+}
+
+.main_text {
+  /* Вам нужна качественная и недорогая тротуарная плитка в Волоколамске? Мы готовы предложить отличную возможность приобрести современные модели с высокими показателями эстетики и механической стойкости напрямую от производителя – компании «Мастер Строй». */
+
+  width: 745px;
+  margin: auto;
+  padding: 50px 0;
+  margin-top: 50px;
+  height: 51px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: antiquewhite;
+}
+
+.main_btn {
+  margin-top: 120px;
+  margin-left: 850px;
+
+  width: 240px;
+  height: 60px;
+
+  border: none;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+
+  background: #e05100;
+  border-radius: 30px;
+}
+
+.asd_wrapper {
+  width: 1200px;
+  margin: auto;
+  border: 1px solid #f2f2f2;
+
+  height: 800px;
+}
+
+.asd_h1 {
+  /* Каталог продукции */
+  width: 374px;
+  height: 43px;
+  margin: auto;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #000000;
+}
+
+.asd_box {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.asd_box1 {
+  border: 1px solid black;
+  width: 240px;
+  height: 264px;
+  margin-top: 50px;
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.kafel_img {
+  margin-left: 25px;
+}
+
+.box1_text {
+  /* Прессованная плитка */
+
+  width: 168px;
+  height: 17px;
+  margin: auto;
+  margin-top: 20px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #000000;
+}
+
+.asd_btn {
+  border: none;
+  margin-left: 470px;
+  margin-top: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+
+  width: 266px;
+  height: 60px;
+  /* Rectangle 32 */
+
+  background: #e05100;
+  border-radius: 30px;
+}
+
+article {
+  height: 748px;
+  width: 100%;
+
+  background-color: #404040;
+
+  height: 748px;
+
+  margin: 100px auto;
+}
+
+.art_wrapper {
+  width: 748px;
+  height: 748px;
+
+  background-image: url("./img/information.png");
+  background-repeat: no-repeat;
+
+  background-color: #404040;
+  width: 1600px;
+  height: 748px;
+  top: 1751px;
+  gap: 0px;
+  opacity: 0px;
+
+  margin: 100px auto;
+}
+
+.art_title {
+  margin-left: 825px;
+  margin-top: 15px;
+  width: 106px;
+  height: 43px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.art_minititle {
+  /* «Мастер Строй» - надежная и недорогая тротуарная плитка в Волоколамском районе */
+  margin-left: 825px;
+  margin-top: 50px;
+  width: 706px;
+  height: 48px;
+  top: 1994px;
+  left: 815px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.art_text {
+  margin-left: 825px;
+  margin-top: 50px;
+  /* Наша компания готова помочь вам и с первым и со вторым аспектом данной задачи. В нашем каталоге вы сможете подобрать желаемый вариант материала и сразу заказать профессиональную укладку на вашем участке. Вниманию покупателей всегда доступна качественная и прочная тротуарная плитка от производителя по оптимальной стоимости. Если вам нужна надежная тротуарная плитка, купить в Волоколамском районе такой материал можно у нас, цена продукции из каталога вас приятно удивит и не ударит по бюджету. Оформить заказ можно прямо на сайте. Если в процессе выбора вам понадобится консультация специалиста, вы всегда можете заказать обратный звонок, используя специальную функцию на сайте, либо самостоятельно позвонить менеджеру по указанным телефонам. Теперь если вам нужна тротуарная плитка, вы знаете где ее можно приобрести. «Мастер Строй» - компания-производитель, которая гарантирует достойный уровень качества по приятной цене. ООО «МАСТЕ */
+  width: 705px;
+  height: 248px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #ffffff;
+}
+
+.art_btn {
+  margin-left: 1025px;
+  margin-top: 35px;
+  /* Rectangle 46 */
+
+  width: 240px;
+  height: 60px;
+  /* Приобрести */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  border: none;
+
+  color: #ffffff;
+
+  background: #e05100;
+  border-radius: 30px;
+}
+
+.nav_wrapper {
+  display: flex;
+
+  margin: 100px auto;
+  width: 1500px;
+
+  height: 1500px;
+}
+
+.box1 {
+  display: flex;
+
+  flex-wrap: wrap;
+  width: 510px;
+  margin: 100px auto;
+  height: 349px;
+}
+
+.glav_box {
+  display: flex;
+  gap: 50px;
+}
+
+.stone_title {
+  /* Брусчатка 200x100x50 */
+  width: 169px;
+  margin-left: 90px;
+  height: 17px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.stone_text {
+  /* Количество: 50 пара шт/кв.м */
+  width: 207px;
+  height: 17px;
+  margin-left: 90px;
+  margin-top: 25px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.box_right {
+  margin-left: 26px;
+
+  width: 180px;
+  height: 349px;
+
+  background: #404040;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.nav_right_text {
+  /* Серый 440 руб кв/м Красный 500 руб кв/м Коричневый 550 руб кв/м Желтый 700 руб кв/м Другие цвета по запросу */
+
+  width: 124px;
+  height: 252px;
+  margin-top: 50px;
+  margin-left: 35px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 149.4%;
+  /* or 18px */
+
+  color: #ffffff;
+}
+
+footer {
+  margin: 100px auto;
+  width: 100%;
+  height: 766px;
+
+  background: #404040;
+}
+
+.stone {
+  padding: 20px 20px;
+}
+
+.footer_wrappper {
+  margin: 100px auto;
+  width: 1600px;
+  height: 766px;
+  top: 3943px;
+  gap: 0px;
+  opacity: 0px;
+
+  background: #404040;
+}
+
+.footer_title {
+  /* О производстве */
+
+  width: 308px;
+  height: 43px;
+  margin: auto;
+  margin-top: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.logo_box {
+  width: 231px;
+  margin-top: 125px;
+  margin-left: 200px;
+  height: 74px;
+
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+.logo_boximg {
+  /* Rectangle 52 */
+
+  width: 155px;
+  height: 75px;
+  margin-left: 25px;
+
+  background: url(logo-2016-1.png);
+}
+
+.footer_text {
+  /* Доставка и разгрузка плитки краном-манипулятором */
+  width: 238px;
+  height: 34px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.footer_glav_vbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.kamaz_box,
+.stena_box,
+.quality_box {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.grass_wrapper {
+  margin: auto;
+  width: 1200px;
+  height: 1200px;
+  top: 8422px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.grass_title {
+  /* Наши работы */
+
+  margin: auto;
+  width: 259px;
+  height: 43px;
+  top: 4829px;
+  left: 671px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #000000;
+}
+
+.grass_text {
+  margin: auto;
+  margin-top: 50px;
+  width: 1048px;
+  height: 60px;
+  top: 4952px;
+  left: 275px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.grass_img_box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left: 50px;
+  gap: 50px;
+}
+
+.ppk_img {
+  display: flex;
+  gap: 50px;
+  margin-left: 215px;
+}
+
+.last {
+  width: 100%;
+  height: 1059px;
+  margin: 100px auto;
+  background: #404040;
+}
+
+.last_wrapper {
+  /* Rectangle 51 */
+
+  width: 1222px;
+  height: 1059px;
+  margin: 100px auto;
+  background: #404040;
+}
+
+.last_title {
+  /* Наши преимущества */
+  width: 403px;
+  height: 43px;
+
+  margin: auto;
+  padding: 50px 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.last_box1 {
+  /* Rectangle 7 */
+
+  width: 330px;
+  height: 323px;
+  top: 6355px;
+  left: 276px;
+  gap: 0px;
+  border-radius: 30px 0px 0px 0px;
+  opacity: 0px;
+
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.last_box {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.box1_img {
+  margin-left: 90px;
+}
+
+.box1_title {
+  width: 272px;
+  height: 51px;
+  padding: 20px 0;
+  margin-left: 19px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.last_box1_text {
+  /* На сайте вы сможете подобрать прессованную, вибролитую или фасадную плитку, блоки и бордюры, водостоки, крышки на столбы и многое другое. */
+  padding: 20px 20px;
+  width: 272px;
+  height: 85px;
+  top: 6555px;
+  left: 304px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.info_wrapper {
+  width: 1600px;
+  height: 250px;
+  margin: 100px auto;
+}
+
+.info_title {
+  /* Магазин */
+
+  width: 134px;
+  height: 14px;
+
+  margin-left: 185px;
+  margin-top: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #e05100;
+}
+
+.info_minitext {
+  margin-left: 185px;
+  margin-top: 25px;
+  width: 134px;
+  height: 14px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.clokc_item_box {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  gap: 25px;
+  margin-left: 165px;
+}
+
+.phone_item_box {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  gap: 25px;
+
+  margin-left: 165px;
+}
+
+.right_box1_title {
+  width: 76px;
+  height: 23px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #e05100;
+}
+._right_box1_text {
+  width: 85px;
+  height: 14px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.info_glav_box {
+  display: flex;
+  align-items: center;
+}
+
+.info_right_glav_box {
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+  gap: 200px;
+}
